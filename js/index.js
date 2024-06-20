@@ -24,6 +24,16 @@
 //   let res = num(a);
 //   console.log(res);
 
+// masala 4
+// let arr = ["matiz", "tiko", "olma", "anor"]
+// function massiv (arr , element){
+//     element = 'bugatti'
+//     arr[1] = element;
+
+//     return arr;
+// }
+// console.log(massiv(arr));
+
 // masala 5
 // function vrabel() {
 //   return arr;
@@ -64,12 +74,28 @@
 //   arr.shift()
 //   console.log(vrabel(arr));
 
+// masala 10
+// const cars = ['matiz', 'damas'];
+// const fruit = ['anjir', 'olama' ];
+// function pushElement(cars, fruit){
+//     let res = cars.concat(fruit);
+//     return  res;
+// }
+// console.log(pushElement(cars , fruit))
+
 //  masal 11
 // function sum (arr1, arr2) {
 //     return arr1.includes(arr2);
 // }
 // let res = [1, 2, 3, 4, 5];
 // console.log(sum(res, 3));
+
+// masala 12
+// const cars = ['matiz', 'damas', 'tico' , 'nexia', 'tico', 'damas' ];
+// function sorted(cars){
+//     return cars.sort()
+// }
+// console.log(sorted(cars))
 
 // masala 13
 // function sum (arr1, arr2) {
@@ -97,6 +123,66 @@
 // console.log( del (arr));
 
 
+// masala 16
+// const cars = ['matiz', 'damas', 'tico' , 'nexia', 'tico', 'damas' ];
+// function newElements(cars){
+//     cars.push('audi');
+//     cars.push('bugatti');
+//     return cars;
+// }
+// console.log(newElements(cars))
+
+// masala 17
+// const cars = ['matiz', 'damas', 'malibu', 1254 ];
+// function newElements(cars){
+//     let res = cars[0];
+//     let sum = cars[cars.length -1];
+//     cars[0] = sum ;
+//     cars[cars.length -1] = res;
+//     return cars;
+// }
+// console.log(newElements(cars))
+
+// masala 19
+function copy(arr) {
+    return arr.slice();
+}
+let arr = [1, 2, 3];
+let newarr = copy(arr);
+
+console.log(newarr); 
+
+
+
+// 24 masala
+// const arr = ['olama', 'anor',  1, 2, 5, 'malibu', true ];
+// function massiv (arr){
+//     return arr.sort().reverse();
+// }
+// console.log(massiv(arr))
+
+// 28 masala
+// function massiv(arr, element) {
+//     let index = arr.indexOf(element);
+//     if (index !== -1) {
+//         arr.splice(index, 1);
+//     }
+// }
+// let arr = [1, 2, 3, 4, 5];
+// let element = 3;
+// massiv(arr, element);
+// console.log(arr);
+
+
+// 29 masala
+// function massiv(arr, element) {
+//     return arr.includes(element);
+// }
+// let arr = [ 1254, 'damas', 'malibu', 'matiz' ];
+// let element = 1254;
+// let natija = massiv(arr, element);
+
+// console.log(massiv(arr.includes(element)));
 
 
 // masala 33
@@ -246,3 +332,58 @@
 // let res = arr(cars);
 // console.log(res);
 
+
+
+
+
+// for (let i = 0 ; i < cars.length; i++){
+    //     console.log(cars[i]);
+    // }
+    
+    // for(const test of cars) {
+        //     console.log(test);
+        // }
+        
+// const cars = ['matiz', 'damas'];
+// const num = ['anjir', 'olama' ];
+// function pushElement(cars, num){
+//     let res = cars.concat(num);
+//     return  res;
+// }
+// console.log(pushElement(cars , num))
+
+
+// const cars = ['matiz', 'damas'];
+// function massiv(arr , element){
+//     let  res = cars.includes(element);
+//     return res;
+// }
+// console.log(massiv(cars, 12))
+
+
+
+
+// const cars = ['matiz', 'damas', 'tico' , 'nexia', 'tico', 'damas' ];
+// // cars.sort()
+// // console.log(cars)
+
+
+// const arr = ['matiz', 'damas', 'tico' , 'nexia', 'tico', 'damas' ];
+// function massiv (arr){
+//     return arr.sort().reverse();
+// }
+// console.log(massiv(arr))
+
+
+// let arr = [6, 5, 4, 3, 4]
+// arr.sort (function(a, b){
+//     return a - b
+// })
+// console.log(arr) 
+
+
+// const arr = ['matiz', 'damas', 'tico' , 'nexia', 'tico', 'damas' ];
+// function massiv (arr){
+//     return arr.sort().reverse();
+// }
+// console.log(massiv(arr))
